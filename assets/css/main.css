@@ -1,12 +1,7 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
-
-/*
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
+@font-face {
+	font-family: productsans;
+	src:url("productsans.ttf");
+}
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1812,7 +1807,7 @@
 
 	body, input, select, textarea {
 		color: #6e6e6e;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: productsans;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1848,6 +1843,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #5b5b5b;
 		font-weight: 700;
+		font-family: productsans;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -2181,7 +2177,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: productsans;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
