@@ -1,3 +1,7 @@
+@font-face {
+	font-family: productsans;
+	src:url("productsans.ttf");
+}
 * {
 	margin: 0
 }
