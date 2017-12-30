@@ -2526,12 +2526,6 @@
 			z-index: 0;
 		}
 
-		#header:before {
-			height: calc(100% - 50px);
-			opacity: 0.15;
-			top: 0;
-		}
-
 		#header:after {
 			bottom: 0;
 			height: 50px;
