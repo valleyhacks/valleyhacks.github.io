@@ -2705,17 +2705,6 @@
 		z-index: 1;
 	}
 
-		#main:before {
-			background: rgba(224, 224, 224, 0.75);
-			content: '';
-			height: 100%;
-			left: 50%;
-			position: absolute;
-			top: 0;
-			width: 1px;
-			z-index: -1;
-		}
-
 		#main header.major,
 		#main footer.major {
 			background: #ffffff;
