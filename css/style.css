@@ -22,7 +22,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: 'Product Sans';
+  font-family: 'Product Sans', Arial, sans-serif;
   color: #222324;
   line-height: 1.6;
   background-color: #fff;
