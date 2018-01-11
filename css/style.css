@@ -2,9 +2,9 @@
 font-family: "Product Sans";
 src: url("fonts/ProductSans-Regular.eot");
 src:
-url("fonts/ProductSans-Regular.woff") format("woff"),
-url("fonts/ProductSans-Regular.otf") format("opentype"),
-url("fonts/ProductSans-Regular.svg#filename") format("svg");
+url("../fonts/ProductSans-Regular.woff") format("woff"),
+url("../fonts/ProductSans-Regular.otf") format("opentype"),
+url("../fonts/ProductSans-Regular.svg#filename") format("svg");
 }
 
 html {
